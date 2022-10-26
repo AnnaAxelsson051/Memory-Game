@@ -28,6 +28,16 @@ section {
   padding: 2rem;
 }
 
+.card {
+  position: relative;
+  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+}
+
+.toggleCard {
+  transform: rotateY(180deg);
+}
+
 .face,
 .back {
   width: 100%;
@@ -37,17 +47,7 @@ section {
   /*so we cant cklick it*/
 }
 
-.card {
-  position: relative;
-  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transform-style: preserve-3d;
-}
-
 .back {
   background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
   backface-visibility: hidden;
-}
-
-.toggleCard {
-  transform: rotateY(180deg);
 }
