@@ -1,9 +1,9 @@
 const section = document.querySelector("section");
-const playerLivesCount = document.querySelector("span");
-let playerLives = 6;
+const playerAttemptsCount = document.querySelector("span");
+let playerAttempts = 6;
 
 //link text
-playerLivesCount.textContent = playerLives;
+playerAttemptsCount.textContent = playerAttempts;
 
 //generate data, array of objects
 //a function that returns an array of objects
@@ -89,16 +89,16 @@ const checkCards = (e) => {
         //if not a match we remove flipped
         setTimeout(() => card.classList.remove("toggleCard"), 1000);
       });
-      playerLives--;
-      playerLivesCount.textContent = playerLives;
-      if (playerLives === 0) {
-        restart("try again");
+      playerAttempts--;
+      playerAttemptsCount.textContent = playerAttempts;
+      if (playerAttempts === 0) {
+        restart("You are out of attempts, try again!");
         //if anyone looses restart
       }
     }
   }
   if ((toggleCard, length === 16)) {
-    restart("you won");
+    restart("You won!");
   }
   //check if we won the game
 };
@@ -123,8 +123,8 @@ const restart = (text) => {
     }, 1000);
   });
   //if we loose flip all cards back to original position
-  playerLives = 6;
-  playerLivesCount.textContent = playerLives;
+  playerAttempts = 6;
+  playerAttemptsCount.textContent = playerAttempts;
   //set the lives back to 6
   setTimeout(() => window.alert(text), 100);
   //a congrats window with text on 100 ms delay
