@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #e1e2fc;
+  padding: 2rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to bottom, #186edf, #0e1094, #25adf7);
+}
+
+section {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(4, 8rem);
+  grid-template-rows: repeat(4, 8rem);
+  perspective: 800px;
+  border: 5px solid #a69064;
+  padding: 2rem;
+}
+
+.face,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  /*so we cant cklick it*/
+}
+
+.card {
+  position: relative;
+  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+}
+
+.back {
+  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
+  backface-visibility: hidden;
+}
+
+.toggleCard {
+  transform: rotateY(180deg);
+}
