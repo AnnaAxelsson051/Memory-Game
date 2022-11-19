@@ -15,7 +15,7 @@ const getData = () => [
   { imgSrc: "pelargon.jpeg", name: "pelargon" },
   { imgSrc: "pelargon2.jpeg", name: "pelargon2" },
   { imgSrc: "nejlika.jpeg", name: "nejlika" },
-  { imgSrc: "gul-prästkrage.jpeg", name: "prästkrage" },
+  { imgSrc: "gul-prästkrage.jpeg", name: "gul-prästkrage" },
   { imgSrc: "rose.jpeg", name: "rose" },
   { imgSrc: "blåklocka.jpeg", name: "blåklocka" },
   { imgSrc: "tussilago.jpeg", name: "tussilago" },
@@ -23,7 +23,7 @@ const getData = () => [
   { imgSrc: "pelargon.jpeg", name: "pelargon" },
   { imgSrc: "pelargon2.jpeg", name: "pelargon2" },
   { imgSrc: "nejlika.jpeg", name: "nejlika" },
-  { imgSrc: "gul-prästkrage.jpeg", name: "prästkrage" },
+  { imgSrc: "gul-prästkrage.jpeg", name: "gul-prästkrage" },
 ];
 
 //funct that randomize all tha cards for unescape
