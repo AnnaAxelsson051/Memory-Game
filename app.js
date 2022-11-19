@@ -83,7 +83,7 @@ const checkCards = (e) => {
         //so its uncklickeable
       });
     } else {
-      console.log("wrong");
+      //console.log("wrong");
       flippedCards.forEach((card) => {
         card.classList.remove("flipped");
         //if not a match we remove flipped
