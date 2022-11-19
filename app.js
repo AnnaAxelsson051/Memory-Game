@@ -9,21 +9,21 @@ playerAttemptsCount.textContent = playerAttempts;
 //a function that returns an array of objects
 const getData = () => [
   { imgSrc: "rose.jpeg", name: "rose" },
-  { imgSrc: "gul-prästkrage.jpeg", name: "gul-prästkrage" },
+  { imgSrc: "blaklocka.jpeg", name: "blaklocka" },
   { imgSrc: "tussilago.jpeg", name: "tussilago" },
   { imgSrc: "vitsippa.jpeg", name: "vitsippa" },
   { imgSrc: "pelargon.jpeg", name: "pelargon" },
   { imgSrc: "pelargon2.jpeg", name: "pelargon2" },
   { imgSrc: "nejlika.jpeg", name: "nejlika" },
-  { imgSrc: "prästkrage.jpeg", name: "prästkrage" },
+  { imgSrc: "prastkrage.jpeg", name: "prastkrage" },
   { imgSrc: "rose.jpeg", name: "rose" },
-  { imgSrc: "gul-prästkrage.jpeg", name: "gul-prästkrage" },
+  { imgSrc: "blaklocka.jpeg", name: "blaklocka" },
   { imgSrc: "tussilago.jpeg", name: "tussilago" },
   { imgSrc: "vitsippa.jpeg", name: "vitsippa" },
   { imgSrc: "pelargon.jpeg", name: "pelargon" },
   { imgSrc: "pelargon2.jpeg", name: "pelargon2" },
   { imgSrc: "nejlika.jpeg", name: "nejlika" },
-  { imgSrc: "prästkrage.jpeg", name: "prästkrage" },
+  { imgSrc: "prastkrage.jpeg", name: "prastkrage" },
 ];
 
 //funct that randomize all tha cards for unescape
