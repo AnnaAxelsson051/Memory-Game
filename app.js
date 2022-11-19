@@ -9,7 +9,7 @@ playerAttemptsCount.textContent = playerAttempts;
 //a function that returns an array of objects
 const getData = () => [
   { imgSrc: "rose.jpeg", name: "rose" },
-  { imgSrc: "blåklocka.jpeg", name: "blåklocka" },
+  { imgSrc: "gul-prästkrage.jpeg", name: "gul-prästkrage" },
   { imgSrc: "tussilago.jpeg", name: "tussilago" },
   { imgSrc: "vitsippa.jpeg", name: "vitsippa" },
   { imgSrc: "pelargon.jpeg", name: "pelargon" },
@@ -17,7 +17,7 @@ const getData = () => [
   { imgSrc: "nejlika.jpeg", name: "nejlika" },
   { imgSrc: "prästkrage.jpeg", name: "prästkrage" },
   { imgSrc: "rose.jpeg", name: "rose" },
-  { imgSrc: "blåklocka.jpeg", name: "blåklocka" },
+  { imgSrc: "gul-prästkrage.jpeg", name: "gul-prästkrage" },
   { imgSrc: "tussilago.jpeg", name: "tussilago" },
   { imgSrc: "vitsippa.jpeg", name: "vitsippa" },
   { imgSrc: "pelargon.jpeg", name: "pelargon" },
