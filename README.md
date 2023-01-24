@@ -1,7 +1,5 @@
 # memory-game
 
-[![Button Example]][Link]
-
 [Link to published site](https://annaaxelsson051.github.io/memory-game/)
 
 </br>
