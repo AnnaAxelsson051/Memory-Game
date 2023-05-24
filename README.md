@@ -4,7 +4,7 @@ Created by: Anna Axelsson
 
 [Link to published site](https://annaaxelsson051.github.io/Memory-Game/)
 
-</br>
+
 ## Description 
 
 > Uplifting memory game with flipping cards with flowers
