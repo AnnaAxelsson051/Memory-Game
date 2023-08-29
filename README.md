@@ -2,8 +2,6 @@
 
 [Link to published site](https://annaaxelsson051.github.io/Memory-Game/)
 
----
-
 ## User Interface
 
 ![User interface](User-interface.png)
